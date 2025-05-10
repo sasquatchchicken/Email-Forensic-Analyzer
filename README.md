@@ -147,8 +147,8 @@ dkimpy, dnspython, geoip2, python-magic, requests, oletools, colorama, beautiful
 
 Set environment variables:
 ```
-export VIRUSTOTAL_API_KEY="your_key"
-export IPQS_API_KEY="your_key"
+self.virustotal_api_key = os.getenv('VIRUSTOTAL_API_KEY', '')
+self.ipqualityscore_api_key = os.getenv('IPQS_API_KEY', '')
 ```
 ## Usage
 ```
