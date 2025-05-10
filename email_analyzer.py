@@ -41,7 +41,7 @@ class EmailAnalyzer:
         
         # Threat intelligence API configuration
         self.virustotal_api_key = os.getenv('VIRUSTOTAL_API_KEY', '')
-        self.ipqualityscore_api_key = os.getenv('EjfCuvo4gW0B3Nq5Dcv09B8xjYSr9j4K', '')
+        self.ipqualityscore_api_key = os.getenv('IPQS_API_KEY', '')
         
         # File type identification
         self.mime = magic.Magic(mime=True)
